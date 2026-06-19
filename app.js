@@ -46,7 +46,7 @@ const menu = [
             precios: {
                 "Pequeño": 4400,
                 "Mediano": 5700,
-                "Grande": 7600
+                "Grande": 7500
             }
 
         },
@@ -383,7 +383,7 @@ const menu = [
             nombre: "Adicional de Papas",
 
             precios:{
-                "Precio":1200
+                "Precio":1250
             }
 
         },
