@@ -1441,3 +1441,67 @@ margin-bottom:30px;
     z-index:100;
 
 }
+/* ===========================
+   MODAL DE INFORMACIÓN
+=========================== */
+
+.modal{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.6);
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
+
+.modal-contenido{
+    width:90%;
+    max-width:380px;
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    animation:aparecer .25s;
+}
+
+.modal-contenido h2{
+    margin-bottom:15px;
+    color:#003b5c;
+}
+
+.modal-contenido p{
+    margin-bottom:20px;
+    line-height:1.5;
+}
+
+.modal-contenido button{
+    background:#003b5c;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.modal-contenido button:hover{
+    background:#005a86;
+}
+
+@keyframes aparecer{
+
+    from{
+        transform:scale(.8);
+        opacity:0;
+    }
+
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+
+}

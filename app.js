@@ -19,34 +19,34 @@ const menu = [
     productos: [
 
         {
-            nombre: "Ceviche Dorado",
+            nombre: "Ceviche Pescado",
 
             precios: {
-                "Pequeño": 0, // ← Precio
-                "Mediano": 0, // ← Precio
-                "Grande": 0   // ← Precio
+                "Pequeño": 3600,
+                "Mediano": 4700,
+                "Grande": 6700
             }
 
         },
 
         {
-            nombre: "Ceviche Dorado Mixto",
+            nombre: "Ceviche Pescado Mixto",
 
             precios: {
-                "Pequeño": 0,
-                "Mediano": 0,
-                "Grande": 0
+                "Pequeño": 4300,
+                "Mediano": 5700,
+                "Grande": 7500
             }
 
         },
 
         {
-            nombre: "Ceviche Dorado Triple",
+            nombre: "Ceviche Pescado Triple",
 
             precios: {
-                "Pequeño": 0,
-                "Mediano": 0,
-                "Grande": 0
+                "Pequeño": 4400,
+                "Mediano": 5700,
+                "Grande": 7600
             }
 
         },
@@ -55,9 +55,9 @@ const menu = [
             nombre: "Ceviche Marlin Blanco",
 
             precios: {
-                "Pequeño": 0,
-                "Mediano": 0,
-                "Grande": 0
+                "Pequeño": 4100,
+                "Mediano": 5500,
+                "Grande": 7900
             }
 
         },
@@ -66,9 +66,9 @@ const menu = [
             nombre: "Ceviche Marlin Mixto",
 
             precios: {
-                "Pequeño": 0,
-                "Mediano": 0,
-                "Grande": 0
+                "Pequeño": 4800,
+                "Mediano": 6200,
+                "Grande": 8200
             }
 
         },
@@ -77,31 +77,31 @@ const menu = [
             nombre: "Ceviche Marlin Triple",
 
             precios: {
-                "Pequeño": 0,
-                "Mediano": 0,
-                "Grande": 0
+                "Pequeño": 5000,
+                "Mediano": 6500,
+                "Grande": 8200
             }
 
         },
 
         {
-            nombre: "Ceviche de Camarón",
+            nombre: "Ceviche Camarón / Pulpo",
 
             precios: {
-                "Pequeño": 0,
-                "Mediano": 0,
-                "Grande": 0
+                "Pequeño": 4800,
+                "Mediano": 6200,
+                "Grande": 8200
             }
 
         },
 
         {
-            nombre: "Ceviche de Pulpo",
+            nombre: "Ceviche de Piangua",
 
             precios: {
-                "Pequeño": 0,
-                "Mediano": 0,
-                "Grande": 0
+                "Pequeño": 4200,
+                "Mediano": 5500,
+                "Grande": 7500
             }
 
         },
@@ -110,7 +110,9 @@ const menu = [
             nombre: "Vuelve a la Vida",
 
             precios: {
-                "Normal": 0
+                "Pequeño": 4700,
+                "Mediano": 6000,
+                "Grande": 8200
             }
 
         },
@@ -119,7 +121,8 @@ const menu = [
             nombre: "Ceviche de la Casa",
 
             precios: {
-                "Normal": 0
+                "Mediano": 6500,
+                "Grande": 8800
             }
 
         },
@@ -128,7 +131,8 @@ const menu = [
             nombre: "Ceviche 1000 Millas",
 
             precios: {
-                "Normal": 0
+                "Mediano": 8000,
+                "Grande": 10000
             }
 
         }
@@ -145,28 +149,31 @@ const menu = [
     productos: [
 
         {
-            nombre: "Caldosa Dorada",
+            nombre: "Caldosa Pescado",
 
             precios: {
-                "Normal": 0
+                "Pequeña": 1700,
+                "Grande": 3100
             }
 
         },
 
         {
-            nombre: "Caldosa Dorada Mixta",
+            nombre: "Caldosa Pescado Mixto",
 
             precios: {
-                "Normal": 0
+                "Pequeña": 2900,
+                "Grande": 4000
             }
 
         },
 
         {
-            nombre: "Caldosa Dorada Triple",
+            nombre: "Caldosa Pescado Triple",
 
             precios: {
-                "Normal": 0
+                "Pequeña": 3200,
+                "Grande": 4300
             }
 
         },
@@ -175,16 +182,18 @@ const menu = [
             nombre: "Caldosa Marlin Blanco",
 
             precios: {
-                "Normal": 0
+                "Pequeña": 2400,
+                "Grande": 3800
             }
 
         },
 
         {
-            nombre: "Caldosa Marlin Mixta",
+            nombre: "Caldosa Marlin Mixto",
 
             precios: {
-                "Normal": 0
+                "Pequeña": 3300,
+                "Grande": 4400
             }
 
         },
@@ -193,25 +202,18 @@ const menu = [
             nombre: "Caldosa Marlin Triple",
 
             precios: {
-                "Normal": 0
+                "Pequeña": 3700,
+                "Grande": 4800
             }
 
         },
 
         {
-            nombre: "Caldosa Camarón",
+            nombre: "Caldosa Camarón / Pulpo",
 
             precios: {
-                "Normal": 0
-            }
-
-        },
-
-        {
-            nombre: "Caldosa Pulpo",
-
-            precios: {
-                "Normal": 0
+                "Pequeña": 3800,
+                "Grande": 5000
             }
 
         }
@@ -228,66 +230,69 @@ const menu = [
     productos: [
 
         {
-            nombre: "Tartar de Pescado",
+            nombre: "Tartar Pescado",
+
             precios: {
-                "Pequeño": 0, // ₡4400
-                "Mediano": 0, // ₡5800
-                "Grande": 0   // ₡7000
+                "Pequeño": 4400,
+                "Mediano": 5800,
+                "Grande": 7000
             }
+
         },
 
         {
-            nombre: "Tartar Mixto Camarón",
-            precios: {
-                "Pequeño": 0, // ₡5200
-                "Mediano": 0, // ₡6300
-                "Grande": 0   // ₡7500
-            }
-        },
+            nombre: "Tartar Mixto Camaron/Pulpo",
 
-        {
-            nombre: "Tartar Mixto Pulpo",
             precios: {
-                "Pequeño": 0, // ₡5200
-                "Mediano": 0, // ₡6300
-                "Grande": 0   // ₡7500
+                "Pequeño": 5200,
+                "Mediano": 6300,
+                "Grande": 7500
             }
+
         },
 
         {
             nombre: "Tartar Triple",
+
             precios: {
-                "Pequeño": 0, // ₡5200
-                "Mediano": 0, // ₡6300
-                "Grande": 0   // ₡7500
+                "Pequeño": 5200,
+                "Mediano": 6300,
+                "Grande": 7500
             }
+
         },
 
         {
-            nombre: "Tartar de Marlin",
+            nombre: "Tartar Marlin",
+
             precios: {
-                "Pequeño": 0, // ₡5000
-                "Mediano": 0, // ₡6200
-                "Grande": 0   // ₡7700
+                "Pequeño": 5000,
+                "Mediano": 6200,
+                "Grande": 7700
             }
+
         },
 
         {
-            nombre: "Tartar Marlin Mixto Camarón",
+            nombre: "Tartar Marlin Mixto",
+
             precios: {
-                "Pequeño": 0, // ₡5500
-                "Mediano": 0, // ₡6700
-                "Grande": 0   // ₡8000
+                "Pequeño": 5500,
+                "Mediano": 6700,
+                "Grande": 8000
             }
+
         },
 
         {
-            nombre: "Tartar Marlin Mixto Pulpo",
+            nombre: "Tartar Marlin Triple",
+
             precios: {
-                "Pequeño": 0, // ₡5500
-                "Mediano": 0, // ₡6700
-                "Grande": 0   // ← confirmar
+                "Pequeño": 5500,
+                "Mediano": 6700,
+                "Grande": 8000 // ← Pendiente de confirmar
             }
+
         }
 
     ]
@@ -302,86 +307,94 @@ const menu = [
 
         {
             nombre: "Papas a la Francesa",
+
             precios:{
-                "Normal":0 // ← Precio
+                "Precio":2600
             }
+
         },
 
         {
             nombre: "Papicamarón",
+
             precios:{
-                "Normal":0
+                "Precio":6500
             }
+
         },
 
         {
             nombre: "Papas Locas Pescado",
+
             precios:{
-                "Normal":0
+                "Precio":5800
             }
+
         },
 
         {
-            nombre: "Papas Locas Mixtas Camarón",
-            precios:{
-                "Normal":0
-            }
-        },
+            nombre: "Papas Locas Mixta",
 
-        {
-            nombre: "Papas Locas Mixtas Pulpo",
             precios:{
-                "Normal":0
+                "Precio":6500
             }
+
         },
 
         {
             nombre: "Papas Locas Triples",
+
             precios:{
-                "Normal":0
+                "Precio":6500
             }
+
         },
 
         {
             nombre: "Papas Locas Marlin",
+
             precios:{
-                "Normal":0
+                "Precio":6300
             }
+
         },
 
         {
-            nombre: "Papas Locas Marlin Mixtas Camarón",
+            nombre: "Papas Locas Marlin Mixta",
+
             precios:{
-                "Normal":0
+                "Precio":6800
             }
+
         },
 
         {
-            nombre: "Papas Locas Marlin Mixtas Pulpo",
+            nombre: "Papas Locas Marlin Triple",
+
             precios:{
-                "Normal":0
+                "Precio":6800
             }
+
         },
 
-        {
-            nombre: "Papas Locas Marlin Triples",
-            precios:{
-                "Normal":0
-            }
-        },
+      
 
         {
             nombre: "Adicional de Papas",
+
             precios:{
-                "Normal":0
+                "Precio":1200
             }
+
         },
 
         {
             nombre: "Adicional de Pan",
+
             precios:{
-                "Normal":0
+                "Precio":800
             }
+
         }
 
     ]
@@ -399,25 +412,16 @@ const menu = [
             nombre:"Torre de Pescado",
 
             precios:{
-                "Normal":0
+                "Precio":5200
             }
 
         },
 
         {
-            nombre:"Torre Mixta Camarón",
+            nombre:"Torre Mixta",
 
             precios:{
-                "Normal":0
-            }
-
-        },
-
-        {
-            nombre:"Torre Mixta Pulpo",
-
-            precios:{
-                "Normal":0
+                "Precio":5700
             }
 
         },
@@ -426,7 +430,7 @@ const menu = [
             nombre:"Torre Triple",
 
             precios:{
-                "Normal":0
+                "Precio":6200
             }
 
         },
@@ -435,25 +439,16 @@ const menu = [
             nombre:"Torre Marlin",
 
             precios:{
-                "Normal":0
+                "Precio":6300
             }
 
         },
 
         {
-            nombre:"Torre Marlin Mixta Camarón",
+            nombre:"Torre Marlin Mixta",
 
             precios:{
-                "Normal":0
-            }
-
-        },
-
-        {
-            nombre:"Torre Marlin Mixta Pulpo",
-
-            precios:{
-                "Normal":0
+                "Precio":6800
             }
 
         },
@@ -462,7 +457,16 @@ const menu = [
             nombre:"Torre Marlin Triple",
 
             precios:{
-                "Normal":0
+                "Precio":6800
+            }
+
+        },
+
+        {
+            nombre:"Unidad de Patacón",
+
+            precios:{
+                "Precio":700
             }
 
         }
@@ -481,32 +485,21 @@ const menu = [
         {
             nombre:"Canasta de Pescado",
 
-           precios: {
-                "2 und": 0, 
-                "3 und": 0, 
-                "4 und": 0   
+            precios:{
+                "2 und":4000,
+                "3 und":5000,
+                "4 und":6000
             }
 
         },
 
         {
-            nombre:"Canasta Mixta Camarón",
+            nombre:"Canasta Mixta",
 
-           precios: {
-                "2 und": 0, 
-                "3 und": 0, 
-                "4 und": 0   
-            }
-
-        },
-
-        {
-            nombre:"Canasta Mixta Pulpo",
-
-           precios: {
-                "2 und": 0, 
-                "3 und": 0, 
-                "4 und": 0   
+            precios:{
+                "2 und":4700,
+                "3 und":5800,
+                "4 und":6700
             }
 
         },
@@ -514,10 +507,10 @@ const menu = [
         {
             nombre:"Canasta Triple",
 
-           precios: {
-                "2 und": 0, 
-                "3 und": 0, 
-                "4 und": 0   
+            precios:{
+                "2 und":4800,
+                "3 und":5800,
+                "4 und":6700
             }
 
         },
@@ -525,31 +518,21 @@ const menu = [
         {
             nombre:"Canasta Marlin",
 
-           precios: {
-                "2 und": 0, 
-                "3 und": 0, 
-                "4 und": 0   
+            precios:{
+                "2 und":4800,
+                "3 und":5800,
+                "4 und":6800
             }
 
         },
 
         {
-            nombre:"Canasta Marlin Mixta Camarón",
+            nombre:"Canasta Marlin Mixta",
 
-           precios: {
-                "2 und": 0, 
-                "3 und": 0, 
-                "4 und": 0   
-            }
-        },
-
-        {
-            nombre:"Canasta Marlin Mixta Pulpo",
-
-           precios: {
-                "2 und": 0, 
-                "3 und": 0, 
-                "4 und": 0   
+            precios:{
+                "2 und":4800,
+                "3 und":6000,
+                "4 und":7000
             }
 
         },
@@ -557,10 +540,28 @@ const menu = [
         {
             nombre:"Canasta Marlin Triple",
 
-           precios: {
-                "2 und": 0, 
-                "3 und": 0, 
-                "4 und": 0   
+            precios:{
+                "2 und":4800,
+                "3 und":6000,
+                "4 und":7000
+            }
+
+        },
+
+        {
+            nombre:"Canasta Camarón al Ajillo",
+
+            precios:{
+                "Precio":7000
+            }
+
+        },
+
+        {
+            nombre:"Orden de Patacones",
+
+            precios:{
+                "5 und":3400
             }
 
         }
@@ -568,119 +569,138 @@ const menu = [
     ]
 
 },
+
 {
     nombre: "Pastas",
 
-    descripcion: "Pastas preparadas al momento",
+    descripcion: "Pastas preparadas al momento.",
 
     productos: [
 
         {
-            nombre: "Pasta Salsa Blanca",
+            nombre: "🍝 Todas las pastas pueden prepararse con pollo o camarón.",
+
+            informacion: true
+        },
+
+        {
+            nombre: "Pasta al Ajillo",
             precios: {
-                "Normal": 0
+                "Precio": 6200
             }
         },
 
         {
             nombre: "Pasta Salsa Roja",
             precios: {
-                "Normal": 0
+                "Precio": 6700
             }
         },
 
         {
-            nombre: "Pasta al Ajillo",
+            nombre: "Pasta Salsa Blanca",
             precios: {
-                "Normal": 0
+                "Precio": 7000
             }
         },
 
         {
-            nombre: "Pasta Pesto",
+            nombre: "Pasta al Pesto",
             precios: {
-                "Normal": 0
+                "Precio": 6800
             }
         },
 
         {
             nombre: "Pasta a la Diabla",
             precios: {
-                "Normal": 0
+                "Precio": 6800
             }
         },
 
         {
-            nombre: "Pasta con Camarón",
+            nombre: "Pasta con Pollo en Salsa Blanca",
             precios: {
-                "Normal": 0
+                "Precio": 7000
             }
         },
 
         {
-            nombre: "Pasta con Mariscos",
+            nombre: "Pasta Negra con Mariscos",
             precios: {
-                "Normal": 0
+                "Precio": 8500
             }
         },
 
         {
-            nombre: "Pasta Mixta",
+            nombre: "Lasaña de Camarón",
             precios: {
-                "Normal": 0
+                "Precio": 5000
             }
         }
 
     ]
 
 },
+//--------------------------------------------------------------------------------------------
 
 {
     nombre: "Empanizados",
 
     descripcion: "Especialidades empanizadas",
 
-    productos: [
+    nota: "🍟 Todos los empanizados incluyen papas o arroz y ensalada.\n🐟 El pescado puede variar según disponibilidad.",
+
+    productos: [{
+            nombre: "🍟 Todos los empanizados incluyen papas o arroz y ensalada.\n🐟 El pescado puede variar según disponibilidad.",
+    },
 
         {
             nombre: "Camarones Empanizados",
             precios: {
-                "Normal": 0
-            }
-        },
-
-        {
-            nombre: "Camarones Tempura",
-            precios: {
-                "Normal": 0
+                "Precio": 7800
             }
         },
 
         {
             nombre: "Filet de Pescado Empanizado",
             precios: {
-                "Normal": 0
-            }
-        },
-
-        {
-            nombre: "Filet de Pescado al Ajillo",
-            precios: {
-                "Normal": 0
+                "Precio": 6000
             }
         },
 
         {
             nombre: "Deditos de Pescado",
             precios: {
-                "Normal": 0
+                "Precio": 5800
             }
         },
 
         {
             nombre: "Nuggets de Pollo",
             precios: {
-                "Normal": 0
+                "Precio": 4800
+            }
+        },
+
+        {
+            nombre: "Aros de Calamar",
+            precios: {
+                "Precio": 5800
+            }
+        },
+
+        {
+            nombre: "Palomitas de Camarón",
+            precios: {
+                "Precio": 5000
+            }
+        },
+
+        {
+            nombre: "Mozzarella Sticks",
+            precios: {
+                "Precio": 4500
             }
         }
 
@@ -693,29 +713,49 @@ const menu = [
 
     descripcion: "Especialidades de pescado",
 
+    nota: "🐟 El pescado entero (Pargo Rojo) está sujeto a disponibilidad y su precio depende del tamaño.",
+
     productos: [
 
         {
-            nombre: "Salmón al Ajillo",
+            nombre: "Pescado al Ajillo",
             precios: {
-                "Normal": 0
+                "Precio": 5800
             }
         },
 
         {
-            nombre: "Filet de Pescado",
+            nombre: "Salmón al Ajillo",
             precios: {
-                "Normal": 0
+                "Precio": 8500
+            }
+        },
+
+        {
+            nombre: "Camarones al Ajillo",
+            precios: {
+                "Precio": 7800
+            }
+        },
+
+        {
+            nombre: "Pulpo al Ajillo",
+
+            nota: "El precio varía según el tamaño del pulpo.",
+
+            precios: {
+                "Según tamaño": 0
             }
         },
 
         {
             nombre: "Pescado Entero",
 
-            nota: "El precio depende del tipo de pescado y su peso.",
+            nota: "Pargo Rojo. El precio varía según el tamaño.",
 
-            precios: { }
-
+            precios: {
+                "Según tamaño": 0
+            }
         }
 
     ]
@@ -732,56 +772,56 @@ const menu = [
         {
             nombre: "Nachos de Pescado",
             precios: {
-                "Normal": 0
+                "Precio": 5000
             }
         },
 
         {
             nombre: "Nachos Mixtos Camarón",
             precios: {
-                "Normal": 0
+                "Precio": 5500
             }
         },
 
         {
             nombre: "Nachos Mixtos Pulpo",
             precios: {
-                "Normal": 0
+                "Precio": 5500
             }
         },
 
         {
             nombre: "Nachos Triples",
             precios: {
-                "Normal": 0
+                "Precio": 6000
             }
         },
 
         {
             nombre: "Nachos Marlin",
             precios: {
-                "Normal": 0
+                "Precio": 6000
             }
         },
 
         {
             nombre: "Nachos Marlin Mixtos Camarón",
             precios: {
-                "Normal": 0
+                "Precio": 6500
             }
         },
 
         {
             nombre: "Nachos Marlin Mixtos Pulpo",
             precios: {
-                "Normal": 0
+                "Precio": 6500
             }
         },
 
         {
             nombre: "Nachos Marlin Triples",
             precios: {
-                "Normal": 0
+                "Precio": 6800
             }
         }
 
@@ -797,52 +837,79 @@ const menu = [
 
         {
             nombre: "Arroz con Camarones",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 7300
+            }
         },
 
         {
             nombre: "Arroz con Mariscos",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 7800
+            }
         },
 
         {
             nombre: "Arroz con Pulpo",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 8800
+            }
         },
 
         {
             nombre: "Arroz Negro con Camarones",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 8500
+            }
         },
 
         {
             nombre: "Arroz Negro con Mariscos",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 9000
+            }
         },
 
         {
             nombre: "Arroz Negro con Pulpo",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 9000
+            }
         },
 
         {
             nombre: "Arroz con Pulpo Baby",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 8000
+            }
         },
 
         {
             nombre: "Arroz con Mariscos para Llevar",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 7800
+            }
         },
 
         {
             nombre: "Camarones con Arroz para Llevar",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 7600
+            }
+        },
+
+        {
+            nombre: "Arroz Tutos",
+            precios: {
+                "Precio": 8500
+            }
         },
 
         {
             nombre: "Adicional de Arroz",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 700
+            }
         }
 
     ]
@@ -855,25 +922,41 @@ const menu = [
     descripcion: "Sopas y cremas",
 
     productos: [
-
-        {
-            nombre: "Sopa de Mariscos",
-            precios:{ "Normal":0 }
+         {
+            nombre: "Sopa de Pescado",
+            precios: {
+                "Agua": 6000,
+                "Leche": 6500
+            }
         },
 
         {
-            nombre: "Sopa de Pescado",
-            precios:{ "Normal":0 }
+            nombre: "Sopa de Mariscos",
+            precios: {
+                "Agua": 6000,
+                "Leche": 6500
+            }
         },
 
         {
             nombre: "Crema de Mariscos",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 7000
+            }
         },
 
         {
-            nombre: "Crema de Pescado",
-            precios:{ "Normal":0 }
+            nombre: "Comal de Mariscos",
+            precios: {
+                "Precio": 7800
+            }
+        },
+
+        {
+            nombre: "Comal de Mariscos para Llevar",
+            precios: {
+                "Precio": 8100
+            }
         }
 
     ]
@@ -888,38 +971,52 @@ const menu = [
     productos: [
 
         {
+            nombre: "🍚 Todas las cazuelas vienen acompañadas de arroz o tostadas.",
+            precios: {
+                "Precio": 0
+            }
+        },
+
+        {
             nombre: "Cazuela de Pescado",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 5600
+            }
         },
 
         {
             nombre: "Cazuela de Gambas",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 6600
+            }
+        },
+
+        {
+            nombre: "Cazuela Tuto's",
+            precios: {
+                "Precio": 7000
+            }
+        },
+
+        {
+            nombre: "Cazuela de Mejillón",
+            precios: {
+                "Precio": 5000
+            }
         },
 
         {
             nombre: "Cazuela de Pulpo",
-            precios:{ "Normal":0 }
+            precios: {
+                "Precio": 9500
+            }
         },
 
         {
-            nombre: "Cazuela de Mariscos",
-            precios:{ "Normal":0 }
-        },
-
-        {
-            nombre: "Cazuela Mixta",
-            precios:{ "Normal":0 }
-        },
-
-        {
-            nombre: "Cazuela de Marlin",
-            precios:{ "Normal":0 }
-        },
-
-        {
-            nombre: "Tuto's Mariscada",
-            precios:{ "Normal":0 }
+            nombre: "Cazuela de Chicharrón de Pescado",
+            precios: {
+                "Precio": 4800
+            }
         }
 
     ]
@@ -933,51 +1030,93 @@ const menu = [
     productos: [
 
         {
-            nombre: "Coca Cola",
-            precios:{
-                "Normal":0
+            nombre: "Coca Cola Regular",
+            precios: {
+                "355 ml": 900,
+                "600 ml": 1400
             }
         },
 
         {
             nombre: "Coca Cola Zero",
-            precios:{
-                "Normal":0
+            precios: {
+                "355 ml": 900,
+                "600 ml": 1400
+            }
+        },
+
+        {
+            nombre: "Fanta Roja",
+            precios: {
+                "355 ml": 900,
+                "600 ml": 1400
             }
         },
 
         {
             nombre: "Fanta Naranja",
-            precios:{
-                "Normal":0
+            precios: {
+                "355 ml": 900,
+                "600 ml": 1400
             }
         },
 
         {
-            nombre: "Fanta Kolita",
-            precios:{
-                "Normal":0
+            nombre: "Fanta Uva",
+            precios: {
+                "355 ml": 900,
+                "600 ml": 1400
             }
         },
 
         {
-            nombre: "Sprite",
-            precios:{
-                "Normal":0
+            nombre: "Gin",
+            precios: {
+                "355 ml": 900,
+                "600 ml": 1400
             }
         },
 
         {
-            nombre: "Canada Dry",
-            precios:{
-                "Normal":0
+            nombre: "Fresca",
+            precios: {
+                "355 ml": 900,
+                "600 ml": 1400
             }
         },
 
         {
-            nombre: "Agua Embotellada",
-            precios:{
-                "Normal":0
+            nombre: "Del Valle",
+            precios: {
+                "355 ml": 900
+            }
+        },
+
+        {
+            nombre: "Fuze Tea",
+            precios: {
+                "600 ml": 1400
+            }
+        },
+
+        {
+            nombre: "Soda",
+            precios: {
+                "600 ml": 1400
+            }
+        },
+
+        {
+            nombre: "Soda Michelada",
+            precios: {
+                "Precio": 1800
+            }
+        },
+
+        {
+            nombre: "Vaso Michelado",
+            precios: {
+                "Precio": 500
             }
         }
 
@@ -993,101 +1132,74 @@ const menu = [
     productos: [
 
         {
-            nombre:"Sandía + Fresa",
-
-            precios:{
-                "Agua":2200,
-                "Leche":2500
+            nombre: "Sandía + Fresa + Naranja",
+            precios: {
+                "Agua": 2200,
+                "Leche": 2600
             }
-
         },
 
         {
-            nombre:"Naranja + Fresa",
-
-            precios:{
-                "Agua":2200,
-                "Leche":2500
+            nombre: "Limonada + Hierbabuena",
+            precios: {
+                "Agua": 2200,
+                "Leche": 2600
             }
-
         },
 
         {
-            nombre:"Piña + Papaya",
-
-            precios:{
-                "Agua":2200,
-                "Leche":2500
+            nombre: "Fresa + Arándano + Mora",
+            precios: {
+                "Agua": 2500,
+                "Leche": 2800
             }
-
         },
 
         {
-            nombre:"Piña + Hierbabuena",
-
-            precios:{
-                "Agua":2200,
-                "Leche":2500
+            nombre: "Mango + Fresa",
+            precios: {
+                "Agua": 2200,
+                "Leche": 2600
             }
-
         },
 
         {
-            nombre:"Fresa + Mora",
-
-            precios:{
-                "Agua":2200,
-                "Leche":2500
+            nombre: "Piña + Papaya + Naranja",
+            precios: {
+                "Agua": 2200,
+                "Leche": 2600
             }
-
         },
 
         {
-            nombre:"Fresa + Guanábana",
-
-            precios:{
-                "Agua":2200,
-                "Leche":2500
+            nombre: "Fresa + Sandía",
+            precios: {
+                "Agua": 2200,
+                "Leche": 2600
             }
-
         },
 
         {
-            nombre:"Mango + Fresa",
-
-            precios:{
-                "Agua":2200,
-                "Leche":2500
+            nombre: "Fresa + Guanábana",
+            precios: {
+                "Agua": 2200,
+                "Leche": 2600
             }
+        },
 
+        {
+            nombre: "Piña + Hierbabuena",
+            precios: {
+                "Agua": 2200,
+                "Leche": 2600
+            }
         }
 
     ]
 
 },
 
-{
-    nombre:"Frescos Naturales",
 
-    descripcion:"Refrescantes",
-
-    productos:[
-
-        {
-
-            nombre:"600 ml",
-
-            precios:{
-
-                "Normal":1400
-
-            }
-
-        }
-
-    ]
-
-},
 
 {
     nombre:"Burritos",
@@ -1102,7 +1214,7 @@ const menu = [
 
             precios:{
 
-                "Normal":0
+                "precio":6000
 
             }
 
@@ -1114,7 +1226,7 @@ const menu = [
 
             precios:{
 
-                "Normal":0
+                "precio":6500
 
             }
 
@@ -1137,7 +1249,7 @@ const menu = [
 
             precios:{
 
-                "Normal":0
+                "x":0
 
             }
 
@@ -1149,7 +1261,7 @@ const menu = [
 
             precios:{
 
-                "Normal":0
+                "x":0
 
             }
 
@@ -1161,7 +1273,7 @@ const menu = [
 
             precios:{
 
-                "Normal":0
+                "x":0
 
             }
 
@@ -1173,7 +1285,7 @@ const menu = [
 
             precios:{
 
-                "Normal":0
+                "x":0
 
             }
 
@@ -1185,7 +1297,7 @@ const menu = [
 
             precios:{
 
-                "Normal":0
+                "x":0
 
             }
 
@@ -1197,7 +1309,7 @@ const menu = [
 
             precios:{
 
-                "Normal":0
+                "x":0
 
             }
 
@@ -1209,7 +1321,7 @@ const menu = [
 
             precios:{
 
-                "Normal":0
+                "x":0
 
             }
 
@@ -1324,6 +1436,7 @@ function showCategories(){
     });
 
 }
+
 /*=========================================
         MOSTRAR PRODUCTOS
 =========================================*/
@@ -1488,6 +1601,19 @@ searchInput.addEventListener("input",()=>{
     }
 
 });
+function mostrarModal(texto){
+
+    document.getElementById("modalTexto").textContent = texto;
+
+    document.getElementById("modalInfo").style.display = "flex";
+
+}
+
+function cerrarModal(){
+
+    document.getElementById("modalInfo").style.display = "none";
+
+}
 
 /*=========================================
         INICIAR
