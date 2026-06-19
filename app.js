@@ -128,7 +128,7 @@ const menu = [
         },
 
         {
-            nombre: "Ceviche 1000 Millas",
+            nombre: "Ceviche 100mil Voltios",
 
             precios: {
                 "Mediano": 8000,
@@ -461,6 +461,12 @@ const menu = [
             }
 
         },
+      {
+            nombre:"Orden de Patacones",
+
+            precios:{
+                "5 und":3400
+            },
 
         {
             nombre:"Unidad de Patacón",
@@ -557,12 +563,7 @@ const menu = [
 
         },
 
-        {
-            nombre:"Orden de Patacones",
-
-            precios:{
-                "5 und":3400
-            }
+        
 
         }
 
