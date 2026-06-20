@@ -46,7 +46,7 @@ const menu = [
             precios: {
                 "Pequeño": 4400,
                 "Mediano": 5700,
-                "Grande": 7500
+                "Grande": 7600
             }
 
         },
@@ -128,7 +128,7 @@ const menu = [
         },
 
         {
-            nombre: "Ceviche 100mil Voltios",
+            nombre: "Ceviche 1000 Millas",
 
             precios: {
                 "Mediano": 8000,
@@ -383,7 +383,7 @@ const menu = [
             nombre: "Adicional de Papas",
 
             precios:{
-                "Precio":1250
+                "Precio":1200
             }
 
         },
@@ -461,12 +461,6 @@ const menu = [
             }
 
         },
-      {
-            nombre:"Orden de Patacones",
-
-            precios:{
-                "5 und":3400
-            },
 
         {
             nombre:"Unidad de Patacón",
@@ -563,7 +557,12 @@ const menu = [
 
         },
 
-        
+        {
+            nombre:"Orden de Patacones",
+
+            precios:{
+                "5 und":3400
+            }
 
         }
 
