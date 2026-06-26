@@ -469,7 +469,16 @@ const menu = [
                 "Precio":700
             }
 
+        },
+
+         {
+            nombre:"Orden de Patacones",
+
+            precios:{
+                "5 und":3400
+            }
         }
+
 
     ]
 
@@ -557,14 +566,8 @@ const menu = [
 
         },
 
-        {
-            nombre:"Orden de Patacones",
-
-            precios:{
-                "5 und":3400
-            }
-
-        }
+       
+        
 
     ]
 
