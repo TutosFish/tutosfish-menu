@@ -128,7 +128,7 @@ const menu = [
         },
 
         {
-            nombre: "Ceviche 1000 Millas",
+            nombre: "Ceviche 1000mil Voltios",
 
             precios: {
                 "Mediano": 8000,
