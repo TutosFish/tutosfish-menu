@@ -1328,6 +1328,79 @@ const menu = [
 
     ]
 
+},
+{
+    nombre: "Cafetería",
+
+    descripcion: "Cafés, bebidas calientes y acompañamientos",
+
+    productos: [
+
+        {
+            nombre: "Capuchino Original",
+            precios: {
+                "Precio": 2600
+            }
+        },
+
+        {
+            nombre: "Capuchino Vainilla",
+            precios: {
+                "Precio": 2800
+            }
+        },
+
+        {
+            nombre: "Americano",
+            precios: {
+                "Precio": 2300
+            }
+        },
+
+        {
+            nombre: "Latte",
+            precios: {
+                "Precio": 2600
+            }
+        },
+
+        {
+            nombre: "Expresso",
+            precios: {
+                "Precio": 1600
+            }
+        },
+
+        {
+            nombre: "Mokachino",
+            precios: {
+                "Precio": 2900
+            }
+        },
+
+        {
+            nombre: "Chocolate Caliente",
+            precios: {
+                "Precio": 2500
+            }
+        },
+
+        {
+            nombre: "Café con Leche",
+            precios: {
+                "Precio": 2400
+            }
+        },
+
+        {
+            nombre: "Torta Chilena",
+            precios: {
+                "Precio": 2500
+            }
+        }
+
+    ]
+
 }
 
 ];
