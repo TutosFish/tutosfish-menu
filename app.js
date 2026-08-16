@@ -1339,33 +1339,40 @@ const menu = [
         {
             nombre: "Capuchino Original",
             precios: {
-                "Precio": 2600
+                "Precio": 2200
             }
         },
 
         {
             nombre: "Capuchino Vainilla",
             precios: {
-                "Precio": 2800
+                "Precio": 2500
             }
         },
 
         {
             nombre: "Americano",
             precios: {
-                "Precio": 2300
+                "Precio": 1500
             }
         },
 
         {
             nombre: "Latte",
             precios: {
-                "Precio": 2600
+                "Precio": 2400
             }
         },
 
         {
             nombre: "Expresso",
+            precios: {
+                "Precio": 1000
+            }
+        },
+      
+      {
+            nombre: "Expresso doble",
             precios: {
                 "Precio": 1600
             }
@@ -1374,21 +1381,21 @@ const menu = [
         {
             nombre: "Mokachino",
             precios: {
-                "Precio": 2900
+                "Precio": 2500
             }
         },
 
         {
             nombre: "Chocolate Caliente",
             precios: {
-                "Precio": 2500
+                "Precio": 2100
             }
         },
 
         {
             nombre: "Café con Leche",
             precios: {
-                "Precio": 2400
+                "Precio": 1800
             }
         },
 
